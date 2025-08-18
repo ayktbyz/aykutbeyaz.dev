@@ -80,7 +80,7 @@ export default function Portfolio() {
           <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-br from-primary to-accent p-1">
             <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
               <img
-                src="/professional-developer-portrait.png"
+                src="/foto.jpeg"
                 alt="Aykut Beyaz"
                 className="w-28 h-28 rounded-full object-cover"
               />
