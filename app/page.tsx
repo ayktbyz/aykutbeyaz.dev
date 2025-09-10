@@ -10,7 +10,7 @@ export default function Portfolio() {
     { name: "Jetpack Compose", level: 90 },
     { name: "Clean Architecture", level: 88 },
     { name: "MVVM", level: 92 },
-    { name: "Swift", level: 75 },
+    { name: "Swift", level: 80 },
     { name: "Next.js", level: 70 },
   ]
 
@@ -18,19 +18,27 @@ export default function Portfolio() {
     {
       company: "THECODEBASEIO",
       role: "Android Developer",
-      period: "Haziran 2025 - Devam Ediyor",
+      period: "Haziran 2024 - Temmuz 2025",
       description:
         "Topluyoruz App'te reklam ve e-ticaret modülleri üzerinde çalışıyorum. Modüler uygulama mimarisi içinde Kotlin ve Jetpack Compose kullanarak kullanıcı arayüzleri geliştiriyorum.",
       technologies: ["Kotlin", "Jetpack Compose", "MVVM", "Clean Architecture", "Hilt", "Flow", "Coroutines"],
     },
     {
       company: "SKYLAND",
-      role: "Mobile Developer",
+      role: "Mobile Developer (iOS & Android)",
       period: "Haziran 2020 - Mayıs 2024",
       description:
         "Turkish Airlines ve AnadoluJet uygulamalarına uluslararası bilet satış entegrasyonu gerçekleştirdim. 40+ kurumsal Android/iOS uygulamasının bakımını yaptım.",
       technologies: ["Android (Kotlin - Java)", "iOS (Swift)", "Firebase", "SDK Development"],
     },
+    {
+      company: "COQODE (Freelance)",
+      role: "Mobile Developer (iOS & Android)",
+      period: "Eylül 2020 - Devam Ediyor",
+      description:
+        "Freelance olarak firmalar ve bireyler için özel ihtiyaçlarına yönelik, baştan sona sıfırdan Android ve iOS mobil uygulamaları geliştiriyorum. Gereksinim analizi, tasarım, geliştirme, test ve yayınlama süreçlerinin tamamını üstlenmeye devam ediyorum.",
+      technologies: ["Android (Kotlin - Java)", "iOS (Swift)"]
+    }
   ]
 
   const projects = [
